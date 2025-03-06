@@ -1,0 +1,66 @@
+p {
+    font-family: Serif, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d50000;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #673ab7;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(82deg, #30bdc0, #18a04c);;
+    background-image: url("https://img.over-blog.com/500x375/3/74/71/71/dossier-2/bob_eponge_007-copie-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+   
+}
+
+blockquote {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: #9f9f9f;
+    border-left: 3px solid Firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+  }
+
+  .villagers {
+    border-left: 3px solid DodgerBlue;
+  }
+
+  .old-farmer {
+    border-left: 3px solid ForestGreen;
+  }
+
+  header > h1 {
+    background-color: yellow;
+  }
+
+  .good {
+    text-transform: capitalize;
+  }
+
+  .bad {
+    text-transform: capitalize;
+  }
+
+    

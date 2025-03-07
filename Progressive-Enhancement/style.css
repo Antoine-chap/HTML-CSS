@@ -27,7 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
-   
+    font-family: 'Open Sans', sans-serif;
 }
 
 blockquote {
@@ -57,10 +57,83 @@ blockquote {
 
   .good {
     text-transform: capitalize;
+    color: green;
   }
 
   .bad {
     text-transform: capitalize;
+    color: red;
   }
+
+  table tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+table tr:nth-child(odd) {
+  background-color: gray;
+}
+
+#tableHead {
+  background-color: whitesmoke;
+}
+
+ul li {
+
+}
+
+ul li #good {
+  background-image: url("good.png");
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+
+ul li #evil {
+  background-image: url("bad.png");
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+
+ul li #cats {
+  background-image: url("cats.png");
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+
+#firstpara {
+  font-weight: bold;
+}
+
+/* #firstimg {  Exercice sur le flaot 
+  float: left;
+  margin: 30px;
+}
+
+#secondimg {
+  float: right;
+  margin: 30px;
+}
+
+#threeimg {
+  float: left;
+  margin: 30px;
+} */
+
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-content {
+  width: 60%;
+}
+
 
     
